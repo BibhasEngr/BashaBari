@@ -1,0 +1,199 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(RSignup.jpg);
+  background-size: cover;
+}
+#wrapper{
+     max-width:max;
+     margin: 0 auto;
+     padding: 0px;
+}
+header{
+  background-color: #009879;
+  height: 150px;
+  padding: 3px;
+}
+header h2{
+  font-variant: small-caps;
+  text-align: center;
+  color:#00000;
+  font-family: lucida;
+
+}
+header h1{
+  text-transform: uppercase;
+  text-align: center;
+  color:#fff;
+  line-height: 50px;
+  font-family: cursive;
+}
+.menu{
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+line-height: 32px;
+background-color: #009879;
+margin-bottom: 50px;
+
+  }
+  ul.menu{
+    margin-top: 15px;
+
+  }
+  .menu li{
+    text-transform: capitalize;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  .menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+
+  }
+  h1
+  {
+    text-align: center;
+    margin: 50px auto 100px;
+    color: white;
+
+  }
+  .w{
+
+    text-align: center;
+  
+    font-weight: 1000;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  .main
+  {
+  width:100%;
+  min-height: 380px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  margin-top: 200px;
+  }
+  .service
+  {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom:0;
+    box-shadow: 0 0 20px -15px black;
+    x-index:1;
+    transition: transform .7s;
+  }
+  .service-logo
+  {
+    width:130px;
+    height: 130px;
+  border-radius: 50%;
+  border: 10px solid #009879;
+  margin:90px;
+  }
+  .service-logo img
+  {
+    width:50px;
+    margin-top: 30px;
+
+  }
+  .service h4{
+    height :35px;
+    width: 80%;
+    background:white;
+    margin: 50px auto;
+    position: relative;
+    font-weight: 1000;
+  }
+  .service h4::after
+  {
+    content: '';
+    width:40px;
+    height:30px;
+    background: linear-gradient(to right, white,#5205f0);
+    position: absolute;
+    right:-5px;
+    top:-5px;
+    z-index:-1;
+
+  }
+
+.service h4::before{
+  content: '';
+  width:40px;
+  height:30px;
+  background: linear-gradient(to right,#5205f0,white);
+  position: absolute;
+  left:-5px;
+  bottom:-5px;
+  z-index:-1;
+
+}
+  .shadow1{
+     height:200px;
+     width:80%;
+     background: white;
+     position:absolute;
+     border-radius: 10px;
+     bottom: 0;
+     left:12%;
+     z-index: -1;
+     box-shadow: 0 0 20px -15px black;
+     transition: transform.7s;
+
+  }
+  .shadow2{
+     height:200px;
+     width:65%;
+     background: white;
+     position:absolute;
+     border-radius: 10px;
+     bottom: 0;
+     left:20%;
+     z-index: -2;
+
+
+  }
+  .main:hover .service{
+    transform: translateY(-50px);
+
+  }
+  .main:hover .shadow1{
+    transform: translateY(-25px);
+  }
+
+
+
+  .panel-footer {
+    margin-top: 200px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color:  #009879;
+    border-top: 0;
+    color: white;
+  }
+  .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #hours, #address {
+    line-height: 2;
+  }
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+  #address p {
+    color: black;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  #testimonials {
+    font-style: italic;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }

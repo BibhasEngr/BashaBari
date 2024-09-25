@@ -1,0 +1,95 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(User.jpg);
+  background-size: cover;
+}
+#wrapper{
+     max-width:max;
+     margin: 2 auto;
+
+     padding: 2px;
+}
+header{
+  background-color: #17202A   ;
+  height: 180px;
+  padding: 3px;
+}
+header h1{
+  text-transform: uppercase;
+  text-align: center;
+  color:#fff;
+  line-height: 50px;
+  font-family: cursive;
+}
+header h2{
+  text-transform: uppercase;
+  text-align: center;
+  color:#fff;
+  line-height: 50px;
+  font-family: cursive;
+}
+
+.menu{
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+line-height: 32px;
+background-color: #5D6D7E  ;
+margin-bottom: 0px;
+}
+ul.menu{
+  margin-top: 0px;
+
+}
+.menu li{
+
+    text-transform: capitalize;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+    color: #D0D3D4;
+  }
+  .menu a{
+    text-decoration: none;
+    color: #D0D3D4;
+    padding: 8px;
+
+  }
+  .op li{
+
+      text-transform: capitalize;
+      display: inline;
+      color:#D0D3D4;
+      font-size: 26px;
+      padding: 0px 10px 0px 10px;
+      font-weight: bold;
+
+    }
+    .op{
+      text-align: right;
+      margin-right: 3%;
+      margin-top: 6%;
+      cursor: pointer;
+
+
+    }
+    .op2 li{
+
+        text-transform: capitalize;
+        display: inline;
+        color:#D0D3D4;
+        font-size: 50px;
+        padding: 0px 68px 0px 68px;
+        font-weight: bold;
+
+      }
+      .op2{
+        text-align: right;
+        margin-right: 0%;
+        margin-top: 1%;
+        cursor: pointer;
+
+
+      }

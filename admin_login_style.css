@@ -1,0 +1,145 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(admin_log.jpeg);
+  background-size: cover;
+}
+#wrapper{
+     max-width:max;
+     margin: 0 auto;
+
+     padding: 0px;
+}
+header{
+  background-color: #454448;
+  height: 150px;
+  padding: 3px;
+}
+header h2{
+  font-variant: small-caps;
+  text-align: center;
+  color:#E7D6D6;
+  font-family: lucida;
+
+}
+header h1{
+  text-transform: uppercase;
+  text-align: center;
+  color:#ECE0E0;
+  line-height: 50px;
+  font-family: cursive;
+}
+.menu{
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+line-height: 32px;
+background-color: #454448;
+margin-bottom: 50px;
+
+  }
+  ul.menu{
+    margin-top: 15px;
+
+  }
+  .menu li{
+    text-transform: capitalize;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  .menu a{
+    text-decoration: none;
+    color: #E7D6D6;
+    padding: 8px;
+
+
+  }
+.login-box{
+  width: 380px;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px ;
+  margin-bottom: 40px;
+  padding: 13px 0;
+  margin-left: 75px;
+  color: #ECE0E0;
+  margin-top: -35px;
+  font-family: cursive;
+
+}
+.loginbox h5{
+  float: left;
+  font-size: 14px;
+  padding: 5px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 2px solid white;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: #1A191C;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 100%;
+  background: #1A191C;
+  border: 3px solid #1A191C ;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+
+}
+.panel-footer {
+  margin-top: 500px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #1A191C;
+  border-top: 0;
+  color: white;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: black;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
